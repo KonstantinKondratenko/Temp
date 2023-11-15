@@ -1,0 +1,51 @@
+root@oumuamua:~# cd && ls -lRa
+.:
+total 484
+drwxr-xr-x 4 mongodb mongodb   4096 Nov 15 14:37 .
+drwxr-xr-x 4 root    root      4096 Oct 13 07:47 ..
+-rw------- 1 root    root        74 Nov 15 14:01 .bash_history
+-rw------- 1 mongodb mongodb     50 Nov 15 13:02 WiredTiger
+-rw------- 1 mongodb mongodb     21 Nov 15 13:02 WiredTiger.lock
+-rw------- 1 mongodb mongodb   1472 Nov 15 14:37 WiredTiger.turtle
+-rw------- 1 mongodb mongodb 110592 Nov 15 14:37 WiredTiger.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 WiredTigerHS.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 _mdb_catalog.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 collection-0--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 collection-10--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 collection-2--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  24576 Nov 15 14:22 collection-4--3907138835051437936.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 collection-7--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 14:22 collection-8--3907138835051437936.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 collection-9--3907138835051437936.wt
+drwx------ 2 mongodb mongodb   4096 Nov 15 14:38 diagnostic.data
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 index-1--3907138835051437936.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 index-11--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 14:22 index-12--3907138835051437936.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 index-13--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 index-14--3907138835051437936.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 index-15--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 14:22 index-16--3907138835051437936.wt
+-rw------- 1 mongodb mongodb   4096 Nov 15 13:02 index-17--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  20480 Nov 15 13:03 index-3--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  24576 Nov 15 14:22 index-5--3907138835051437936.wt
+-rw------- 1 mongodb mongodb  24576 Nov 15 14:22 index-6--3907138835051437936.wt
+drwx------ 2 mongodb mongodb   4096 Nov 15 13:02 journal
+-rw------- 1 mongodb mongodb      2 Nov 15 13:02 mongod.lock
+-rw------- 1 mongodb mongodb  36864 Nov 15 14:23 sizeStorer.wt
+-rw------- 1 mongodb mongodb    114 Nov 15 13:02 storage.bson
+
+./diagnostic.data:
+total 600
+drwx------ 2 mongodb mongodb   4096 Nov 15 14:38 .
+drwxr-xr-x 4 mongodb mongodb   4096 Nov 15 14:37 ..
+-rw------- 1 mongodb mongodb 582296 Nov 15 14:37 metrics.2023-11-15T10-02-57Z-00000
+-rw------- 1 mongodb mongodb  16088 Nov 15 14:38 metrics.interim
+
+./journal:
+total 307208
+drwx------ 2 mongodb mongodb      4096 Nov 15 13:02 .
+drwxr-xr-x 4 mongodb mongodb      4096 Nov 15 14:37 ..
+-rw------- 1 mongodb mongodb 104857600 Nov 15 14:37 WiredTigerLog.0000000001
+-rw------- 1 mongodb mongodb 104857600 Nov 15 13:02 WiredTigerPreplog.0000000001
+-rw------- 1 mongodb mongodb 104857600 Nov 15 13:02 WiredTigerPreplog.0000000002
+

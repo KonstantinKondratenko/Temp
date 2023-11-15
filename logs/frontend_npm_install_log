@@ -1,0 +1,30 @@
+(base) oumuamua@oumuamua:~/infrastructure/proctoring$ cd frontend && npm install
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: react-axios@2.0.3
+npm ERR! Found: axios@1.4.0
+npm ERR! node_modules/axios
+npm ERR!   axios@"1.4.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer axios@"^0.15.0" from react-axios@2.0.3
+npm ERR! node_modules/react-axios
+npm ERR!   react-axios@"2.0.3" from the root project
+npm ERR! 
+npm ERR! Conflicting peer dependency: axios@0.15.3
+npm ERR! node_modules/axios
+npm ERR!   peer axios@"^0.15.0" from react-axios@2.0.3
+npm ERR!   node_modules/react-axios
+npm ERR!     react-axios@"2.0.3" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/oumuamua/.npm/_logs/2023-11-15T11_01_58_667Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in: /home/oumuamua/.npm/_logs/2023-11-15T11_01_58_667Z-debug-0.log
+

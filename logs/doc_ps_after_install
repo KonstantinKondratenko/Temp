@@ -1,0 +1,10 @@
+(base) oumuamua@oumuamua:~/infrastructure/proctoring$ docker ps -a
+CONTAINER ID   IMAGE                                            COMMAND                  CREATED         STATUS                      PORTS                                                 NAMES
+8b87039a9e62   proctoring_frontend                              "nginx -g 'daemon of…"   6 minutes ago   Up 6 minutes                                                                      proctoring_frontend
+77c3131951a0   proctoring_coturn                                "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes                                                                      proctoring_turn
+4f8ca0ca55e8   proctoring_backend_image                         "node www"               6 minutes ago   Up 6 minutes                                                                      proctoring_backend
+59d8d2d8e149   chargosudar/xqueue-custom:latest                 "/bin/sh -c 'gunicor…"   6 minutes ago   Up 6 minutes                                                                      xqueue
+d7e3739c7800   proctoring_kurento                               "/entrypoint.sh"         6 minutes ago   Up 6 minutes (healthy)                                                            proctoring_kurento
+cfd1295520dd   portainer/portainer-ce:2.0.1                     "/portainer --admin-…"   6 minutes ago   Up 6 minutes                8000/tcp, 0.0.0.0:9000->9000/tcp, :::9000->9000/tcp   portainer
+2664b2a207f0   mongo:5.0                                        "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes                                                                      proctoring_mongo
+
